@@ -38,8 +38,21 @@ body{
 }
 input{
     width: 100%;
-    height: 35px;
+    height: 68px;
     border: #ecf0f3;
     border-radius: 15px;
     box-shadow: 2px 2px 5px #cbced1 inset;
+}
+[type="button"]{
+    width: 68px;
+    height: 68px;
+    background: #ecf0f3;
+    border-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px #cbced1, 
+               -2px -2px 5px #ffffff;
+    cursor: pointer;
+}
+.igual{
+    width: 140px;
 }
