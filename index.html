@@ -10,41 +10,43 @@
 </head>
 
 <body>
-    <div class="contenedor">
-        <div class="fila">
-            <form name="calculadora">
-                <input type="text" id="entrada" class="entrada" value="0" readonly>
-            </form>
-        </div>
-        
-        <div class="fila">
-            <button id="numero" type="button" class="numero" onclick="numeroPress(7)">7</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(8)">8</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(9)">9</button>
-            <button id="operador" type="button" class="operador" onclick="operadorPress('+')">+</button>
-        </div>
-        <div class="fila">
-            <button id="numero" type="button" class="numero" onclick="numeroPress(4)">4</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(5)">5</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(6)">6</button>
-            <button id="operador" type="button" class="operador" onclick="operadorPress('-')">-</button>
-        </div>
-        <div class="fila">
-            <button id="numero" type="button" class="numero" onclick="numeroPress(1)">1</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(2)">2</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(3)">3</button>
-            <button id="operador" type="button" class="operador" onclick="operadorPress('*')">*</button>
-        </div>
-        <div class="fila">
-            <button id="accion" type="button" class="accion" onclick="limpiarPress()">AC</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress(0)">0</button>
-            <button id="numero" type="button" class="numero" onclick="numeroPress('.')">.</button>
-            <button id="operador" type="button" class="operador" onclick="operadorPress('/')">/</button>
-        </div>
-        <div class="fila">
-            <button id="accion" type="button" class="accion" onclick="copiarPress()">MC</button>
-            <button id="pegar" type="button" class="pegar" onclick="pegarPress()">MP</button>
-            <button id="igual" type="button" class="igual" onclick="igualPress()">=</button>
+    <div class="main">
+        <div class="contenedor">
+            <div class="fila">
+                <form name="calculadora">
+                    <input type="text" id="entrada" class="entrada" value="0" readonly>
+                </form>
+            </div>
+
+            <div class="fila">
+                <button id="numero" type="button" class="numero" onclick="numeroPress(7)">7</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(8)">8</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(9)">9</button>
+                <button id="operador" type="button" class="operador" onclick="operadorPress('+')">+</button>
+            </div>
+            <div class="fila">
+                <button id="numero" type="button" class="numero" onclick="numeroPress(4)">4</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(5)">5</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(6)">6</button>
+                <button id="operador" type="button" class="operador" onclick="operadorPress('-')">-</button>
+            </div>
+            <div class="fila">
+                <button id="numero" type="button" class="numero" onclick="numeroPress(1)">1</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(2)">2</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(3)">3</button>
+                <button id="operador" type="button" class="operador" onclick="operadorPress('*')">*</button>
+            </div>
+            <div class="fila">
+                <button id="accion" type="button" class="accion" onclick="limpiarPress()">AC</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress(0)">0</button>
+                <button id="numero" type="button" class="numero" onclick="numeroPress('.')">.</button>
+                <button id="operador" type="button" class="operador" onclick="operadorPress('/')">/</button>
+            </div>
+            <div class="fila">
+                <button id="accion" type="button" class="accion" onclick="copiarPress()">MC</button>
+                <button id="pegar" type="button" class="pegar" onclick="pegarPress()">MP</button>
+                <button id="igual" type="button" class="igual" onclick="igualPress()">=</button>
+            </div>
         </div>
     </div>
     </div>
