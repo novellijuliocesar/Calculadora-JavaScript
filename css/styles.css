@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    text-align: center;
+    width: 350px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 10px gray,
+    -5px 5px 10px #fff;
+}
